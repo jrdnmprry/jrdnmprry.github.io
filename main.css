@@ -1,2 +1,5 @@
 h1 { background: crimson; color: white; font-family: Impact, Charcoal, sans-serif; }
-p { color: crimson; }
+p {}
+a { color:darkorchid; font-weight: bolder;}
+#dragonpunch { color: red; lang: ja;}
+.japenese { lang: ja;}
