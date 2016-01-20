@@ -22,11 +22,11 @@ a { color:darkorchid;
 
 .menu a:hover { background-color: white; }
 
-header { font-size: 100px; background-color: lightgray;}
+header { font-size: 100px; background-color: lightgray; border-top-style: solid; border-top-color: red; border-top-width: 15px}
 
-footer { font-size: 50px; background-color: lightgray;}
+footer { font-size: 25px; background-color: lightgray; border-bottom-style: solid; border-width: 15px; border-color: red;}
 
 .jordan { float: left;
         }
 
-.aboytcontent { float: right;}
+.aboutcontent { float: right;}
