@@ -1,32 +1,75 @@
-h1 { background: crimson; color: white; font-family: Impact, Charcoal, sans-serif; }
-p {}
-a { color:darkorchid; 
-    font-weight: bolder;}
-#dragonpunch { color: red; 
-               lang: ja;}
-.japenese { lang: ja;}
+* { 
+    box-sizing: border-box;
+}
 
-.nav { list-style-type: none;
+h1 { 
+    background: crimson; 
+    color: white; 
+    font-family: Impact, Charcoal, sans-serif; 
+}
+
+a { 
+    color:darkorchid; 
+    font-weight: bolder;
+}
+
+#dragonpunch { 
+    color: red; 
+               lang: ja;
+}
+
+.japenese { 
+    lang: ja;
+}
+
+.nav { 
+    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: red }
+    background-color: red 
+}
 
-.menu { float: left; }
+.menu { 
+    float: left; 
+}
 
-.menu a { display: block;
+.menu a { 
+    display: block;
     color: black;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none; }
+    text-decoration: none; 
+}
 
-.menu a:hover { background-color: white; }
+.menu a:hover { 
+    background-color: white; 
+}
 
-header { font-size: 100px; background-color: lightgray; border-top-style: solid; border-top-color: red; border-top-width: 15px}
+header { 
+    font-size: 100px; 
+    background-color: lightgray; 
+    border-top-style: solid; 
+    border-top-color: red; 
+    border-top-width: 15px
+}
 
-footer { font-size: 25px; background-color: lightgray; border-bottom-style: solid; border-width: 15px; border-color: red;}
+footer { 
+    font-size: 25px; 
+    background-color: lightgray; 
+    border-bottom-style: solid; 
+    border-width: 15px; 
+    border-color: red; 
+    margin-top: 20px;
+}
 
-.jordan { background-color: darkorchid; float: left;
+.jordan { 
+    background-color: darkorchid; 
+    float: left ; 
+    text-align: center;
         }
 
-.aboutcontent { background-color: cornflowerblue; float: right;}
+.aboutcontent { 
+    background-color: cornflowerblue; 
+    float: right;
+}
