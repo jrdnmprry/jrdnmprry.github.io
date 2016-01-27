@@ -62,3 +62,7 @@ footer a {
   color: darkgrey;
   padding-right:5px;
 }
+
+a:hover{
+    background-color: aquamarine
+}
