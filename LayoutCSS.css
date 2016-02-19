@@ -1,18 +1,30 @@
 #box1 {
+    position: relative;
     width: 960px;
     height: 570px;
-    border-border-style: solid;
-    border-width: 5px; 
-    border-color: black;
+    border: 2px solid black;
+    margin-bottom: 130px;
+}
+
+#box2 {
+    position: relative;
+    width: 960px;
+    height: 570px;
+    border: 2px solid black;
+    padding: 20px;
 }
 
 #box1r {
+    position: relative;
+    float: left;
     height: 200px;
     width: 200px;
     background-color: red;
 }
 
 #box1g {
+    float: right;
+    position: relative;
     background-color: green;
     height: 200px;
     width: 200px;
@@ -20,18 +32,82 @@
 }
 
 #box1b {
+    display: 
+    float: left;
+    margin-top: 370px;
+    position: relative;
     background-color: blue;
     height: 200px;
     width: 200px;
 }
 
 #box1y {
+    position: relative;
+    float: right;
     background-color: yellow;
     height: 200px;
     width: 200px;
 }
-#box2 {}
 
-#box3 {}
+#box2r {
+    float: left;
+    position: relative;
+    display: block;
+    background-color: red;
+    height: 570px;
+    width: 240px;
+}
 
-#box4 {}
+#box2b {
+    float: right;
+    display: block;
+    position: relative;
+    background-color: blue;
+    height: 570px;
+    width: 240px;
+}
+
+#box2y {
+    float: right;
+    display: block;
+    position: relative;
+    background-color: yellow;
+    height: 570px;
+    width: 240px;
+}
+
+#box2g {
+    float: right;
+    display: block;
+    position: relative;
+    background-color: green;
+    height: 570px;
+    width: 240px;
+}
+
+#box3r {
+    display: block;
+    position: relative;
+    background-color: red;
+    height: 120px;
+    width: inherit;
+    padding: 20px;
+}
+
+#box3g {
+    display: block;
+    position: relative;
+    background-color: red;
+    height: 120px;
+    width: inherit;
+    padding: 20px;
+}
+
+#box3b {
+    display: block;
+    position: relative;
+    background-color: red;
+    height: 120px;
+    width: inherit;
+    padding: 20px;
+}
