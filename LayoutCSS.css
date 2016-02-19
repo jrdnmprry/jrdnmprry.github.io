@@ -2,7 +2,7 @@
     position: relative;
     width: 960px;
     height: 570px;
-    border: 2px solid black;
+    border: 3px solid black;
     margin-bottom: 130px;
 }
 
@@ -10,7 +10,7 @@
     position: relative;
     width: 960px;
     height: 570px;
-    border: 2px solid black;
+    border: 3px solid black;
     padding: 10px;
 }
 
@@ -32,8 +32,6 @@
 }
 
 #box1b {
-    display: 
-    float: left;
     margin-top: 370px;
     position: relative;
     background-color: blue;
@@ -42,6 +40,7 @@
 }
 
 #box1y {
+    display: inline-block;
     position: absolute;
     float: right;
     background-color: yellow;
