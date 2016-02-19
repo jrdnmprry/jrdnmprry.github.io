@@ -11,7 +11,7 @@
     width: 960px;
     height: 570px;
     border: 2px solid black;
-    padding: 20px;
+    padding: 10px;
 }
 
 #box1r {
@@ -42,7 +42,7 @@
 }
 
 #box1y {
-    position: relative;
+    position: absolute;
     float: right;
     background-color: yellow;
     height: 200px;
@@ -86,28 +86,27 @@
 }
 
 #box3r {
-    display: block;
     position: relative;
     background-color: red;
     height: 120px;
-    width: inherit;
-    padding: 20px;
+    width: 920px;
+    margin: 10px;
 }
 
 #box3g {
-    display: block;
+    float: left;
     position: relative;
-    background-color: red;
-    height: 120px;
-    width: inherit;
-    padding: 20px;
+    background-color: green;
+    height: 395px;
+    width: 175px;
+    margin: 10px;
 }
 
 #box3b {
-    display: block;
+    float: right;
     position: relative;
-    background-color: red;
-    height: 120px;
-    width: inherit;
-    padding: 20px;
+    background-color: blue;
+    height: 395px;
+    width: 730px;
+    margin: 10px;
 }
