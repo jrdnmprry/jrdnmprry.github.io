@@ -141,3 +141,71 @@
   margin:auto;
 }
 
+.shoulder{
+  height:50px;
+  width:50px;
+  background-color:black;
+  border-radius:50%;
+  border: 2px solid lightgrey;
+  margin:auto;
+  top:195px
+}
+
+.shoulder.right{
+  left:150px;
+}
+
+.shoulder.left{
+  right:150px;
+}
+
+.arm{
+  height:120px;
+  width:25px;
+  background-color:lightgrey;
+
+  margin:auto;
+  top:215px
+}
+
+.arm.right{
+  left:150px;
+}
+
+.arm.left{
+  right:150px;
+}
+
+.hand{
+  height:55px;
+  width:55px;
+  background-color:grey;
+  border-radius:50%;
+  border: 15px solid lightgrey;
+  margin:auto;
+  top:320px
+}
+
+.hand.right{
+  left:150px;
+}
+
+.hand.left{
+  right:150px;
+}
+
+.bar{
+  height:16px;
+  width:5px;
+  background-color:black;
+  margin:auto;
+  top:359px
+}
+
+.bar.right{
+  left:150px;
+}
+
+.bar.left{
+  right:150px;
+}
