@@ -1,0 +1,34 @@
+* { 
+    box-sizing: border-box;
+}
+
+.menu{
+    position: absolute;
+    float:left;
+    width:200px;
+    background-color: black;
+    
+}
+
+.menuitem{
+    position: relative;
+    color: white;
+    
+}
+
+.menuitem a:hover{
+    border: 3px solid white;
+}
+
+.feed{
+    position: absolute;
+    width: 800px;
+}
+
+.post{
+    position: relative;
+}
+
+.photo{
+    position: absolute;
+}
