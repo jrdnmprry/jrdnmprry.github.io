@@ -4,45 +4,80 @@
 
 .menu{
     list-style-type: none;
-    position: absolute;
-    float:left;
-    width:200px;
+    height: 50px;
+    width: 800px;
     background-color: black;
+    padding: 20px;
+    text-transform: uppercase;
+    margin: auto;
     
 }
 
 .menuitem{
-    position: relative;
+    font: 35px; 
     color: white;
-    margin: 5px;
-    
+    float: left;
+    margin-right: 10px;
+    text-shadow: 2px 2px grey;
 }
 
-.menuitem a:hover{
-    border: 3px solid white;
+.menu a:hover{
+   background-color: white;
 }
 
 .feed{
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-indent: inherit;
     position: relative;
     width: 800px;
-}
-
-.post{
-    position: relative;
+    text-align: left;
+    line-height: 100%;
+    word-spacing: 3px;   
 }
 
 .photo{
-    position: absolute;
+    margin: 0 0 10px 10 px;
+    float: right;
 }
 
 .pullquote{
-    font: 36px bold;
-    position: absolute;
+    font: 30px bold;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+h1{
+    text-align: center;
+    font: 40px black;
+    text-decoration: underline;
+}
+
+h2{
+    font-size: 20px;
+    text-align: right;
+    font-style: italic;
+    margin: 0;
+}
+
+h3{
+    font-size: 15px;
+    text-align: right;
+    font-style: bold;
+    margin-bottom: 20;
+    margin-top: 0;
 }
 
 header{
-    font: 50px white;
+    font: 50px black;
     text-align: center;
     font-family: cursive, lucidia handwriting;
-    border-bottom: 9px black;
+    border-bottom: 9px solid black;
+    border-bottom-style: double;
+    font-variant: small-caps;
+    letter-spacing: 10px;
 }
