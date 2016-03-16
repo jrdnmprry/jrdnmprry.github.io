@@ -6,6 +6,7 @@
 html, body {
     height: 100%;
     background-color: #F8E5EE;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 body{
@@ -18,6 +19,7 @@ header{
     background-color: #7b0d1e;
     border-bottom: solid 4px #9f2042;
     padding: 30px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 footer{
@@ -25,6 +27,7 @@ footer{
     height: 100px;
     background-color: #7b0d1e;
     border-top: solid 4px #9f2042;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 a{
@@ -209,11 +212,15 @@ picreel{
 
 
 .price{
+    font-size: 35px;
+    
     
 }
 
 .package{
+    text-decoration: underline;
     margin: 0;
+    text-transform: uppercase;
 }
 
 .blogtitle{
